@@ -1,0 +1,254 @@
+/*Menú navegación principal común*/
+
+header{
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    padding-top: 10px;
+    background-color: rgb(194, 194, 194);
+}
+
+    header nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    header nav ul{
+        display: flex;
+        gap: 30px;
+        margin-right: 30px;
+    }
+
+        header nav ul li{
+            list-style: none;
+        }
+
+        header nav ul li a{
+            text-decoration: none;
+        }
+
+.tituloMenuGeneral{
+    margin-left: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    background-color: rgb(248, 248, 248);
+    width: 1170px;
+    margin: 0px auto;
+    padding-top: 100px;
+}
+
+/*********Página Músiques del món*********/
+
+.mainIndex{
+    background-color: rgb(248, 248, 248);
+    width: 1170px;
+    margin: 0px auto;
+    padding-top: 200px;
+    /*centrado de en construccion*/
+    display: flex;
+    justify-content: center;
+}
+
+.indexSubtitulo{
+    text-align: center;
+}
+
+.mapaPrincipal{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    position: relative;
+}
+
+    .mapaPrincipal img{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+/*punto en el mapa*/
+
+.pointBra{
+    display: inline-block;  /*Para permitir definir altura y anchura */
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+    left: 380px;
+    text-decoration: none;  /*Quitar el subrayado del enlace */
+    cursor: pointer;  /*Cambiar el cursor para parecer interactivo */
+    border: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.pointIndo{
+    display: inline-block;  /*Para permitir definir altura y anchura */
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 900px;
+    text-decoration: none;  /*Quitar el subrayado del enlace */
+    cursor: pointer;  /*Cambiar el cursor para parecer interactivo */
+    border: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.pointSen{
+    display: inline-block;  /*Para permitir definir altura y anchura */
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 600px;
+    text-decoration: none;  /*Quitar el subrayado del enlace */
+    cursor: pointer;  /*Cambiar el cursor para parecer interactivo */
+    border: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.pointMex{
+    display: inline-block;  /*Para permitir definir altura y anchura */
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 300px;
+    text-decoration: none;  /*Quitar el subrayado del enlace */
+    cursor: pointer;  /*Cambiar el cursor para parecer interactivo */
+    border: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.pointArg{
+    display: inline-block;  /*Para permitir definir altura y anchura */
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 480px;
+    left: 320px;
+    text-decoration: none;  /*Quitar el subrayado del enlace */
+    cursor: pointer;  /*Cambiar el cursor para parecer interactivo */
+    border: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.pointEsc{
+    display: inline-block;  /*Para permitir definir altura y anchura */
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: 520px;
+    text-decoration: none;  /*Quitar el subrayado del enlace */
+    cursor: pointer;  /*Cambiar el cursor para parecer interactivo */
+    border: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.pointJap{
+    display: inline-block;  /*Para permitir definir altura y anchura */
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 240px;
+    left: 980px;
+    text-decoration: none;  /*Quitar el subrayado del enlace */
+    cursor: pointer;  /*Cambiar el cursor para parecer interactivo */
+    border: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.pointIndi{
+    display: inline-block;  /*Para permitir definir altura y anchura */
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    z-index: 1;
+    top: 350px;
+    left: 800px;
+    text-decoration: none;  /*Quitar el subrayado del enlace */
+    cursor: pointer;  /*Cambiar el cursor para parecer interactivo */
+    border: 2px solid black;
+    transition: all 0.2s ease;
+}
+
+.pointBra:focus,
+.pointBra:hover,
+.pointIndo:focus,
+.pointIndo:hover,
+.pointSen:focus,
+.pointSen:hover,
+.pointMex:focus,
+.pointMex:hover,
+.pointArg:focus,
+.pointArg:hover,
+.pointEsc:focus,
+.pointEsc:hover,
+.pointJap:focus,
+.pointJap:hover,
+.pointIndi:focus,
+.pointIndi:hover{
+    background-color: blue;
+    outline: none; /* Quitar el borde de enfoque predeterminado */
+    height: 30px;
+    width: 30px;
+}
+
+.pointBra:active,
+.pointIndo:active,
+.pointSen:active,
+.pointMex:active,
+.pointArg:active,
+.pointEsc:active,
+.pointJap:active,
+.pointIndi:active{
+    background-color: blue; /* Cambia a rojo cuando se hace clic */
+    height: 25px;
+    width: 25px; 
+}
+
+/*********Página Brasil*********/
+
+/*********Página Indonèsia*********/
+
+/*********Página Senegal*********/
+
+/*********Página Mèxic*********/
+
+/*********Página Argentina*********/
+
+/*********Página Escòcia*********/
+
+/*********Página Japó*********/
+
+/*********Página Índia*********/
